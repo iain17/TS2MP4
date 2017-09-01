@@ -21,7 +21,6 @@ Pod::Spec.new do |s|
   s.authors      = "Jonathan Gailliez", "Damien Leroy", "Anton Burdinuk", "GPAC"
   s.source       = { :git => "https://github.com/Keemotion/TS2MP4.git", :tag => s.version.to_s }
 
-  s.platform = :ios
   s.ios.deployment_target = '9.3'
   s.requires_arc = true
   
