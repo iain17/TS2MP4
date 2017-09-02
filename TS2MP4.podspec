@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.3'
   s.requires_arc = true
   
-  s.dependency 'GPAC4iOS', '0.2.2'
+  s.dependency 'GPAC4iOS', '0.2.1'
 
   s.libraries = 'z', 'stdc++'
   
