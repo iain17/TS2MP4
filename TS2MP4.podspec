@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Keemotion/TS2MP4.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.3'
+  s.tvos.deployment_target = '9.0'
   s.requires_arc = true
   
   s.dependency 'GPAC4iOS', '0.2.1'
